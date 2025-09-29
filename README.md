@@ -8,7 +8,7 @@ Install Docker Desktop
 1. Clone this repo
 2. Verify that docker is installed correctly. Run `docker -v`
 3. Navigate to the newly cloned repo and run `docker-compose up`
-4. Navigate to `http://localhost:8888/` > `notebooks` > `spark-warehouse` > `iceberg_deletion_experiments_notebook.ipynb`
+4. Navigate to `http://localhost:8888/` > `notebooks` > `iceberg_deletion_experiments_notebook.ipynb`
 5. Run the Notebook. (There are three different delete cells that individually delete the rows with `write.delete.granularity = file`)
 6. This will generate the Position Deletes.
 7. To view the Position Delete files go to `http://localhost:9001`.
